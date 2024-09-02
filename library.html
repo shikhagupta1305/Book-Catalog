@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Library Management System</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="#search">Search</a></li>
+                    <li><a href="#books">Available Books</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+       
+
+        <section id="search" class="search-section">
+            <h2>Search for Books</h2>
+            <input type="text" id="searchBar" placeholder="Search by title, author, or genre..." />
+            <button id="searchButton">Search</button>
+            <div id="loadingIndicator" class="loading-indicator">Loading...</div>
+        </section>
+
+        <section id="books">
+            <!-- <h2>Available Books</h2> -->
+            <div id="bookDisplay" class="book-list"></div>
+        </section>
+    </main>
+<!-- 
+    <footer>
+        <p>&copy; 2024 Library Management System | All Rights Reserved</p>
+    </footer> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
