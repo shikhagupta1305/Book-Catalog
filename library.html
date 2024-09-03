@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-
     <title>Library Management System</title>
 </head>
 <body>
@@ -22,8 +21,6 @@
     </header>
 
     <main class="container">
-       
-
         <section id="search" class="search-section">
             <h2>Search for Books</h2>
             <input type="text" id="searchBar" placeholder="Search by title, author, or genre..." />
@@ -31,15 +28,36 @@
             <div id="loadingIndicator" class="loading-indicator">Loading...</div>
         </section>
 
-        <section id="books">
-            <!-- <h2>Available Books</h2> -->
-            <div id="bookDisplay" class="book-list"></div>
+        <section id="books" class="book-section">
+            <h2>Available Books</h2>
+            <div id="bookDisplay" class="book-list">
+                <div class="book">
+                    <img src="https://cdn.shopify.com/s/files/1/0070/1884/0133/t/8/assets/pf-8a8430b5--Books5.jpg?v=1620061376" alt="Book Cover">
+                    <h3>Lord of the Rings Trilogy</h3>
+                    <p>Author: J.R.R. Tolkien</p>
+                    <p>Genre: Epic high fantasy novel</p>
+                </div>
+                <div class="book">
+                    <img src="https://cdn.shopify.com/s/files/1/0070/1884/0133/t/8/assets/pf-157924db--Books11_1200x.jpg?v=1620061425" alt="Book Cover">
+                    <h3>To kill a Mockingbird</h3>
+                    <p>Author: Hyrper Lee</p>
+                    <p>Genre: Southern Gothic</p>
+                </div>
+                <div class="book">
+                    <img src="https://cdn.shopify.com/s/files/1/0070/1884/0133/t/8/assets/pf-7924db00--Books12.jpg?v=1620061432" alt="Book Cover">
+                    <h3>Moby-Dick</h3>
+                    <p>Author: By Herman Melville</p>
+                    <p>Genre: Adventure Fiction</p>
+                </div>
+                <div class="book">
+                    <img src="https://cdn.shopify.com/s/files/1/0070/1884/0133/t/8/assets/pf-24db0028--Books13.jpg?v=1620061439" alt="Book Cover">
+                    <h3>The Alchemist</h3>
+                    <p>Author: Paulo Coelho</p>
+                    <p>Genre: Quest Adventure Novel</p>
+                </div>
+            </div>
         </section>
     </main>
-<!-- 
-    <footer>
-        <p>&copy; 2024 Library Management System | All Rights Reserved</p>
-    </footer> -->
 
     <script src="script.js"></script>
 </body>
